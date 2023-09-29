@@ -11,7 +11,7 @@ txt = Entry(root,textvariable=namevar, width=20,fg="blue",bg="#00FFFF",anchor="C
 txt.grid(column =0, row =1)
 
 emailvar=StringVar()
-namel=Label(root,text="Enter Your emailid",fg="blue",anchor="CENTER")
+namel=Label(root,text="Enter Your emailid",fg="blue")
 namel.grid(row=2,column=0)
 txt = Entry(root, width=20,fg="blue",bg="#00FFFF",textvariable=emailvar,anchor="CENTER")
 txt.grid(column =0, row =3)
